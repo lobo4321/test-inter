@@ -14198,3 +14198,18 @@ html.full-page-slider body {
   width: 100%;
   height: 100%;
 }
+
+.card-modelo_negocio { 
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: flex-start !important;
+}
+
+.card-modelo_negocio h3 { 
+  color:white;
+}
+
+.card-modelo_negocio p { 
+  color: white;
+}
