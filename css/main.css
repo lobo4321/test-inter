@@ -14199,17 +14199,21 @@ html.full-page-slider body {
   height: 100%;
 }
 
-.card-modelo_negocio { 
+.card-modelo_negocio {
   display: flex;
   flex-direction: column;
   padding: 5%;
   align-items: flex-start !important;
 }
 
-.card-modelo_negocio h3 { 
-  color:white;
+.card-modelo_negocio h3 {
+  color: white;
 }
 
-.card-modelo_negocio p { 
+.card-modelo_negocio p {
   color: white;
+}
+
+html {
+  scroll-behavior: smooth;
 }
