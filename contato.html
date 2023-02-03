@@ -83,7 +83,7 @@
 
 
       <!-- header start -->
-      <header class="header -light -sticky-light js-header">
+      <header class="header -light -sticky-light js-header-light -classic js-header">
         <!-- header__bar start -->
         <div class="header__bar">
           <div class="header__logo js-header-logo">
@@ -95,12 +95,47 @@
             </a>
           </div>
 
-          <div class="header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
-              <i class="icon" data-feather="menu"></i>
-              <span></span>
-              <span></span>
-            </button>
+          <div class="navClassic-wrap js-header-menu-classic">
+            <ul class="navClassic-list js-navClassic-list">
+              <li>
+                <a data-barba href="index.html">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a data-barba href="index.html#sobre">
+                  Sobre
+                </a>
+              </li>
+
+              <li>
+                <a data-barba href="index.html#negócio">
+                  Negócio
+                </a>
+              </li>
+
+              <li>
+                <a data-barba href="index.html#serviços">
+                  Serviços
+                </a>
+              </li>
+
+              <li>
+                <a data-barba href="index.html#cultura">
+                  Cultura
+                </a>
+              </li>
+
+
+            </ul>
+          </div>
+
+          <div class="header__menu__wrap overflow-hidden">
+            <div class="header__menu js-header-menu">
+              <button type="button" class="nav-button-open js-nav-open">
+                <i class="icon" data-feather="menu"></i>
+              </button>
+            </div>
           </div>
         </div>
         <!-- header__bar end -->
@@ -127,178 +162,36 @@
                   <div class="navList__wrap">
                     <ul class="navList js-navList">
                       <li>
-                        <a data-barba href="home-1-classic.html">
-                          Classic Menu
+                        <a data-barba href="index.html">
+                          Home
+                        </a>
+                      </li>
+                      <li>
+                        <a data-barba href="index.html#sobre">
+                          Sobre
                         </a>
                       </li>
 
-                      <li class="menu-item-has-children">
-                        <a>Main Pages</a>
-
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="home-1.html">Main Slider</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-2.html">Main Dark</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-3.html">Simple Slider</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-4.html">Bold Light</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-5.html">Static Header Dark</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-6.html">Personal</a>
-                          </li>
-                          <li>
-                            <a data-barba href="projectSlider-1.html">Project Slider</a>
-                          </li>
-                        </ul>
+                      <li>
+                        <a data-barba href="index.html#negócio">
+                          Negócio
+                        </a>
                       </li>
 
-                      <li class="menu-item-has-children">
-                        <a>Inner Pages</a>
-
-                        <ul class="subnav-list">
-                          <li class="menu-item-has-children">
-                            <a>About</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="about-1.html">About 1</a>
-                              </li>
-                              <li>
-                                <a data-barba href="about-2.html">About 2</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="menu-item-has-children">
-                            <a>Services</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="services-1.html">Services 1</a>
-                              </li>
-                              <li>
-                                <a data-barba href="services-2.html">Services 2</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="menu-item-has-children">
-                            <a>404</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="404-light.html">404 Light</a>
-                              </li>
-                              <li>
-                                <a data-barba href="404-dark.html">404 Dark</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="menu-item-has-children">
-                            <a>Contact</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="contact-1.html">Contact 1</a>
-                              </li>
-                              <li>
-                                <a data-barba href="contact-2.html">Contact 2</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li>
-                            <a data-barba href="team.html">Team</a>
-                          </li>
-                          <li>
-                            <a data-barba href="pricing.html">Pricing Plans</a>
-                          </li>
-                          <li>
-                            <a data-barba href="clients.html">Clients</a>
-                          </li>
-                        </ul>
+                      <li>
+                        <a data-barba href="index.html#serviços">
+                          Serviços
+                        </a>
                       </li>
 
-                      <li class="menu-item-has-children">
-                        <a>Portfolio</a>
-
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="vertical-projects.html">Vertical Projects</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-simple-2-col.html">Simple 2 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-masonry-2-col.html">Masonry 2 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-masonry-3-col.html">Masonry 3 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-masonry-4-col.html">Masonry 4 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-fancy-2-col.html">Fancy 2 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-fancy-3-col.html">Fancy 3 Columns</a>
-                          </li>
-                        </ul>
+                      <li>
+                        <a data-barba href="index.html#cultura">
+                          Cultura
+                        </a>
                       </li>
 
-                      <li class="menu-item-has-children">
-                        <a>Works</a>
 
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="portfolio-single-1.html">Project 1</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-2.html">Project 2</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-3.html">Project 3</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-4.html">Project 4</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-5.html">Project 5</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-6.html">Project 6</a>
-                          </li>
-                        </ul>
-                      </li>
 
-                      <li class="menu-item-has-children">
-                        <a>Blog</a>
-
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="blog-1.html">Blog List</a>
-                          </li>
-                          <li>
-                            <a data-barba href="blog-2.html">Blog 2 cols</a>
-                          </li>
-                          <li>
-                            <a data-barba href="blog-fancy-3-col.html">Blog Fancy 3 cols</a>
-                          </li>
-                          <li>
-                            <a data-barba href="blog-article.html">Blog List Single</a>
-                          </li>
-                        </ul>
-                      </li>
                     </ul>
                   </div>
                 </div>
@@ -307,37 +200,37 @@
                   <div class="nav__info">
                     <div class="nav__info__item js-navInfo-item">
                       <h5 class="text-sm tracking-none fw-500">
-                        Address
+                        Endereço
                       </h5>
 
                       <div class="nav__info__content text-lg text-white mt-16">
                         <p>
-                          Studio Stukram 1910 Gateway Road, Portland, Oregon 97230
+                          Mauá, 1100 Curitiba-PR
                         </p>
                       </div>
                     </div>
 
                     <div class="nav__info__item js-navInfo-item">
                       <h5 class="text-sm tracking-none fw-500">
-                        Socials
+                        Rede Social
                       </h5>
 
                       <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="#">Behance</a>
-                        <a href="#">Dribbble</a>
-                        <a href="#">Facebook</a>
-                        <a href="#">Twitter</a>
+                        <a href="https://www.linkedin.com/company/intertradinginvestimentos/"
+                          target="_blank">Linkedin</a>
+                        <a href="https://www.instagram.com/intertradinginvestimentos/" target="_blank">Instagram</a>
+
                       </div>
                     </div>
 
                     <div class="nav__info__item js-navInfo-item">
                       <h5 class="text-sm tracking-none fw-500">
-                        Contact Us
+                        Contato
                       </h5>
 
                       <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="#">hello@stukram.com</a>
-                        <a href="#">+1 202 555 0171</a>
+                        <a href="mailto:contato@interagentes.com.br">contato@interagentes.com.br</a>
+                        <p>(41) 3017-1300</p>
                       </div>
                     </div>
                   </div>
@@ -361,11 +254,10 @@
             <div class="col-xl-9 offset-xl-1 col-lg-11">
               <div data-anim-child="slide-up delay-1" class="sectionHeading -lg">
                 <p class="sectionHeading__subtitle">
-                  Hire Us
+                  Contato
                 </p>
                 <h1 class="sectionHeading__title leading-sm">
-                  Got a project to discuss?
-                  Get in touch.
+                  Vamos atrás do seu sonho?
                 </h1>
               </div>
             </div>
@@ -378,46 +270,45 @@
               <div class="row x-gap-48 y-gap-48">
                 <div class="col-lg-3 col-md-6 col-sm-8">
                   <h4 class="text-xl fw-600">
-                    Address
+                    Endereço
                   </h4>
                   <div class="text-dark mt-12">
-                    <p>Studio Stukram 1910 Gateway Road, Portland, Oregon 97230</p>
+                    <p>Mauá, 1100 Curitiba-PR</p>
                   </div>
                 </div>
 
                 <div class="col-lg-auto offset-lg-1 col-md-6">
                   <h4 class="text-xl fw-600">
-                    Contact Us
+                    Nosso contato
                   </h4>
                   <div class="text-dark mt-12">
                     <div>
-                      <a class="button -underline" href="#">hello@stukram.com</a>
+                      <a class="button -underline"
+                        href="mailto:contato@interagentes.com.br">contato@interagentes.com.br</a>
                     </div>
                     <div class="mt-4">
-                      <a class="button -underline" href="#">+1 202 555 0171</a>
+                      <a class="button -underline" href="#">(41) 3017-1300</a>
                     </div>
                   </div>
                 </div>
 
                 <div class="col-md-auto offset-lg-1">
                   <h4 class="text-xl fw-600">
-                    Follow Us
+                    Nossas redes
                   </h4>
                   <div class="social -bordered mt-16 md:mt-12">
 
-                    <a class="social__item text-black border-dark" href="#">
-                      <i class="fa fa-twitter"></i>
-                    </a>
 
-                    <a class="social__item text-black border-dark" href="#">
+
+                    <a class="social__item text-black border-dark"
+                      href="https://www.instagram.com/intertradinginvestimentos/" target="_blank">
                       <i class="fa fa-instagram"></i>
                     </a>
 
-                    <a class="social__item text-black border-dark" href="#">
-                      <i class="fa fa-youtube-play"></i>
-                    </a>
 
-                    <a class="social__item text-black border-dark" href="#">
+
+                    <a class="social__item text-black border-dark"
+                      href="https://www.linkedin.com/company/intertradinginvestimentos/" target="_blank">
                       <i class="fa fa-linkedin"></i>
                     </a>
 
@@ -443,11 +334,11 @@
             <div class="col-xl-10">
               <div class="sectionHeading -sm">
                 <h2 class="sectionHeading__title">
-                  Drop us a line
+                  Fale conosco
                 </h2>
                 <p class="text-black leading-md mt-12">
-                  Use the form below or
-                  <a href="#" class="fw-700">send us an email</a>.
+                  Envie uma mensagem ou
+                  <a href="mailto:contato@interagentes.com.br" class="fw-700">envie um email</a>.
                 </p>
               </div>
             </div>
@@ -457,20 +348,20 @@
             <div class="col-xl-10 mt-48 sm:mt-32">
               <div class="contact-form -type-1">
                 <form class="row x-gap-40 y-gap-32 js-ajax-form" method="POST" action="contact.php"
-                  data-message-success="Your message has been sent! We will reply you as soon as possible."
-                  data-message-error="Something went wrong. Please contact us directly at <a href='hello@stukram.com'>hello@stukram.com</a>.">
+                  data-message-success="A sua mensagem foi enviada"
+                  data-message-error="Algo deu errado. Entre em contato com <a href='mailto:contato@interagentes.com.br'>contato@interagentes.com.br</a>.">
                   <div class="col-lg-6">
                     <label class="js-input-group">
-                      Name
-                      <input type="text" name="name" data-required placeholder="Fill in your name">
+                      Nome
+                      <input type="text" name="name" data-required placeholder="Insira o seu e-mail">
                       <span class="form__error"></span>
                     </label>
                   </div>
 
                   <div class="col-lg-6">
                     <label class="js-input-group">
-                      Your phone number (optional)
-                      <input type="text" name="phone" placeholder="Phone number">
+                      Telefone (opicional)
+                      <input type="text" name="phone" placeholder="Número">
                       <span class="form__error"></span>
                     </label>
                   </div>
@@ -478,23 +369,23 @@
                   <div class="col-lg-6">
                     <label class="js-input-group">
                       Email
-                      <input type="text" name="email" data-required placeholder="Fill in your email">
+                      <input type="text" name="email" data-required placeholder="Insira o seu email">
                       <span class="form__error"></span>
                     </label>
                   </div>
 
                   <div class="col-lg-6">
                     <label class="js-input-group">
-                      Subject
-                      <input type="text" name="subject" placeholder="What are you looking for?">
+                      Tópico
+                      <input type="text" name="subject" placeholder="Diga o que precisa">
                       <span class="form__error"></span>
                     </label>
                   </div>
 
                   <div class="col-12">
                     <label class="js-input-group">
-                      Message
-                      <textarea name="message" rows="2" placeholder="Fill in your message"></textarea>
+                      Mensagem
+                      <textarea name="message" rows="2" placeholder="Escreva sua mensagem"></textarea>
                       <span class="form__error"></span>
                     </label>
                   </div>
@@ -506,7 +397,7 @@
 
                   <div class="col-12">
                     <button class="button -md -black text-white">
-                      Send Message
+                      Enviar
                     </button>
                   </div>
                 </form>
@@ -530,19 +421,33 @@
             <div class="row y-gap-48 justify-content-between">
               <div class="col-lg-auto col-sm-12">
                 <a href="home-1.html" class="footer__logo text-white">
-                  Stukram.
+                  Intertrading
                 </a>
               </div>
 
               <div class="col-lg-3 col-sm-6">
                 <h4 class="text-xl fw-500 text-white">
-                  Studio
+                  Contato
                 </h4>
 
                 <div class="footer__content text-base text-light mt-16 sm:mt-12">
-                  <p>Studio Stukram 1910 Gateway Road, Portland, Oregon 97230</p>
-                  <p class="mt-8">hello@stukram.com</p>
-                  <p class="mt-8">+1 202 555 0171</p>
+                  <p>Rua. Mauá 1100
+                  <div class="-">
+
+
+
+
+
+
+
+
+
+
+
+                  </div>
+                  </p>
+                  <p class="mt-8">contato@interagentes.com.br</p>
+                  <p class="mt-8">(41) 3017-1300</p>
                 </div>
               </div>
 
@@ -552,29 +457,28 @@
                 </h4>
 
                 <div class="footer__content text-base text-light mt-16 sm:mt-12">
-                  <div><a data-barba href="blog-1.html" class="button -underline">Blog</a></div>
-                  <div><a data-barba href="about-1.html" class="button -underline mt-4">Abous Us</a></div>
-                  <div><a data-barba href="#" class="button -underline mt-4">Shop</a></div>
-                  <div><a data-barba href="contact-1.html" class="button -underline mt-4">Contacts</a></div>
+                  <div><a data-barba href="#sobre" class="button -underline">Sobre</a></div>
+                  <div><a data-barba href="#negócio" class="button -underline mt-4">Negócio</a></div>
+                  <div><a data-barba href="#serviços" class="button -underline mt-4">Serviços</a></div>
+                  <div><a data-barba href="#cultura" class="button -underline mt-4">Cultura</a></div>
+                  <div><a data-barba href="contato.html" class="button -underline mt-4">Contato</a></div>
                 </div>
               </div>
 
               <div class="col-lg-auto col-auto">
                 <h4 class="text-xl fw-500 text-white">
-                  Follow us
+                  Nossas redes
                 </h4>
 
                 <div class="social -bordered mt-16 sm:mt-12">
-                  <a class="social__item text-white border-light" href="#">
-                    <i class="fa fa-twitter"></i>
-                  </a>
-                  <a class="social__item text-white border-light" href="#">
+
+                  <a class="social__item text-white border-light"
+                    href="https://www.instagram.com/intertradinginvestimentos/" target="_blank">
                     <i class="fa fa-instagram"></i>
                   </a>
-                  <a class="social__item text-white border-light" href="#">
-                    <i class="fa fa-youtube-play"></i>
-                  </a>
-                  <a class="social__item text-white border-light" href="#">
+
+                  <a class="social__item text-white border-light"
+                    href="https://www.linkedin.com/company/intertradinginvestimentos/" target="_blank">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </div>
@@ -590,7 +494,8 @@
               <div class="col">
                 <div class="footer__copyright">
                   <p class="text-light">
-                    @ 2021, Stukram. Made with passion by Krellion.
+                    @ 2023, Intertrading. Feito com amor por <a style="color:aquamarine;"
+                      href="ensight.com.br">ensight</a>.
                   </p>
                 </div>
               </div>
