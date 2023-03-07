@@ -93,6 +93,10 @@
   padding-bottom: 56.25%;
 }
 
+.ratio-30::before {
+  padding-bottom: 30%;
+}
+
 /*--------------------------------------------------
 	01. Variables
 ---------------------------------------------------*/
@@ -14255,3 +14259,20 @@ html {
   font-weight: 600;
 }
 
+.grifado-inverse {
+  position: relative;
+  background-color: white;
+  color: #0E273D;
+  padding: 5px;
+  margin: 0 2px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.text-header-test { 
+  font-size: 18px;
+}
+
+.bold-text { 
+  font-weight: bold;
+}
